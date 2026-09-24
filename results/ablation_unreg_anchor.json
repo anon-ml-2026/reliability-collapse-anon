@@ -1,0 +1,43 @@
+{
+  "prespec": "preregistration/validation_suite_20260730.md (S4)",
+  "rubric_variant": "v2_d1d2d3_unreganchored (3 author UNREG anchors, else byte-identical)",
+  "judges": "DeepSeek-V4-Pro x Qwen3.6-Plus, T=0",
+  "preregistered_thresholds": {
+    "baseline_unreg_po": 85.0,
+    "baseline_regs_po": 96.7,
+    "gap_pp": 11.7,
+    "thr_instrument_fit": 90.9,
+    "thr_codification": 87.9,
+    "placebo_pp": 2.0
+  },
+  "UNREG": {
+    "n_paired": 1038,
+    "binary_Po_original": 85.07,
+    "binary_Po_anchored": 86.71,
+    "delta_pp": 1.64,
+    "mcnemar": {
+      "b": 63,
+      "c": 80,
+      "p": 0.18070108584148575
+    },
+    "threelevel_Po_original": 78.03,
+    "threelevel_Po_anchored": 82.56
+  },
+  "REG_S_placebo": {
+    "n_paired": 288,
+    "binary_Po_original": 97.92,
+    "binary_Po_anchored": 97.57,
+    "delta_pp": -0.35,
+    "mcnemar": {
+      "b": 5,
+      "c": 4,
+      "p": 1.0
+    },
+    "threelevel_Po_original": 97.22,
+    "threelevel_Po_anchored": 96.53,
+    "placebo_breach_|d|>=2pp": false
+  },
+  "gap_recovery_pct_vs_baseline": 14.6,
+  "verdict": "codification SUPPORTED (<87.9%, gap recovery <25%)",
+  "placebo_note": "REG-S shift -0.35 pp within +/-2pp -> no spillover"
+}

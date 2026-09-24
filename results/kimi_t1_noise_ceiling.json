@@ -1,0 +1,138 @@
+{
+  "kimi_self_T1": {
+    "n_overlap": 3198,
+    "binary": {
+      "CTL": {
+        "n": 806,
+        "Po": 100.0,
+        "kappa": 1.0,
+        "PABAK": NaN
+      },
+      "REG-S": {
+        "n": 794,
+        "Po": 99.5,
+        "kappa": 0.7475,
+        "PABAK": 0.9899
+      },
+      "REG-H": {
+        "n": 799,
+        "Po": 91.99,
+        "kappa": 0.6728,
+        "PABAK": 0.8398
+      },
+      "UNREG": {
+        "n": 799,
+        "Po": 95.24,
+        "kappa": 0.8568,
+        "PABAK": 0.9049
+      }
+    },
+    "band_0.5": {
+      "Overall": {
+        "n_src_0.5": 52,
+        "stay_0.5_pct": 57.7
+      },
+      "CTL": {
+        "n_src_0.5": 0,
+        "stay_0.5_pct": null
+      },
+      "REG-S": {
+        "n_src_0.5": 3,
+        "stay_0.5_pct": 66.7
+      },
+      "REG-H": {
+        "n_src_0.5": 44,
+        "stay_0.5_pct": 52.3
+      },
+      "UNREG": {
+        "n_src_0.5": 5,
+        "stay_0.5_pct": 100.0
+      }
+    }
+  },
+  "between_ds_x_kimi": {
+    "n_overlap": 3214,
+    "binary": {
+      "CTL": {
+        "n": 808,
+        "Po": 100.0,
+        "kappa": 1.0,
+        "PABAK": NaN
+      },
+      "REG-S": {
+        "n": 805,
+        "Po": 97.02,
+        "kappa": 0.3575,
+        "PABAK": 0.9404
+      },
+      "REG-H": {
+        "n": 800,
+        "Po": 87.88,
+        "kappa": 0.6068,
+        "PABAK": 0.7575
+      },
+      "UNREG": {
+        "n": 801,
+        "Po": 81.9,
+        "kappa": 0.567,
+        "PABAK": 0.638
+      }
+    }
+  },
+  "between_qwen_x_kimi": {
+    "n_overlap": 3217,
+    "binary": {
+      "CTL": {
+        "n": 807,
+        "Po": 100.0,
+        "kappa": 1.0,
+        "PABAK": NaN
+      },
+      "REG-S": {
+        "n": 805,
+        "Po": 99.25,
+        "kappa": 0.6629,
+        "PABAK": 0.9851
+      },
+      "REG-H": {
+        "n": 804,
+        "Po": 88.68,
+        "kappa": 0.359,
+        "PABAK": 0.7736
+      },
+      "UNREG": {
+        "n": 801,
+        "Po": 92.26,
+        "kappa": 0.7837,
+        "PABAK": 0.8452
+      }
+    }
+  },
+  "noise_vs_between": {
+    "REG-S": {
+      "self_disagreement_pp": 0.5,
+      "ds_x_kimi_disagreement_pp": 2.98,
+      "qwen_x_kimi_disagreement_pp": 0.75,
+      "ds_ratio": 5.96,
+      "qwen_ratio": 1.5
+    },
+    "REG-H": {
+      "self_disagreement_pp": 8.01,
+      "ds_x_kimi_disagreement_pp": 12.12,
+      "qwen_x_kimi_disagreement_pp": 11.32,
+      "ds_ratio": 1.51,
+      "qwen_ratio": 1.41
+    },
+    "UNREG": {
+      "self_disagreement_pp": 4.76,
+      "ds_x_kimi_disagreement_pp": 18.1,
+      "qwen_x_kimi_disagreement_pp": 7.74,
+      "ds_ratio": 3.8,
+      "qwen_ratio": 1.63
+    }
+  },
+  "reference_band_stability": {
+    "DS_source_0.5_stay_overall": 23.2,
+    "QW_source_0.5_stay_overall": 33.3
+  }
+}

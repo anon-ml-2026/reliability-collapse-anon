@@ -1,0 +1,203 @@
+{
+  "overlap": {
+    "qwen": 3230,
+    "deepseek": 3148
+  },
+  "test_retest_qwen": {
+    "binary": {
+      "CTL": {
+        "n": 809,
+        "Po": 100.0,
+        "kappa": 1.0,
+        "PABAK": NaN
+      },
+      "REG-S": {
+        "n": 808,
+        "Po": 97.65,
+        "kappa": 0.2852,
+        "PABAK": 0.953
+      },
+      "REG-H": {
+        "n": 807,
+        "Po": 95.29,
+        "kappa": 0.417,
+        "PABAK": 0.9058
+      },
+      "UNREG": {
+        "n": 806,
+        "Po": 88.71,
+        "kappa": 0.7056,
+        "PABAK": 0.7742
+      }
+    },
+    "band_0.5": {
+      "Overall": {
+        "n_src_0.5": 45,
+        "stay_0.5_pct": 33.3
+      },
+      "CTL": {
+        "n_src_0.5": 0,
+        "stay_0.5_pct": null
+      },
+      "REG-S": {
+        "n_src_0.5": 3,
+        "stay_0.5_pct": 0.0
+      },
+      "REG-H": {
+        "n_src_0.5": 5,
+        "stay_0.5_pct": 0.0
+      },
+      "UNREG": {
+        "n_src_0.5": 37,
+        "stay_0.5_pct": 40.5
+      }
+    }
+  },
+  "test_retest_deepseek_reference": {
+    "binary": {
+      "CTL": {
+        "n": 807,
+        "Po": 100.0,
+        "kappa": 1.0,
+        "PABAK": NaN
+      },
+      "REG-S": {
+        "n": 789,
+        "Po": 93.66,
+        "kappa": 0.2533,
+        "PABAK": 0.8733
+      },
+      "REG-H": {
+        "n": 770,
+        "Po": 80.39,
+        "kappa": 0.4195,
+        "PABAK": 0.6078
+      },
+      "UNREG": {
+        "n": 782,
+        "Po": 81.59,
+        "kappa": 0.6013,
+        "PABAK": 0.6317
+      }
+    },
+    "band_0.5": {
+      "Overall": {
+        "n_src_0.5": 151,
+        "stay_0.5_pct": 23.2
+      },
+      "CTL": {
+        "n_src_0.5": 0,
+        "stay_0.5_pct": null
+      },
+      "REG-S": {
+        "n_src_0.5": 16,
+        "stay_0.5_pct": 6.2
+      },
+      "REG-H": {
+        "n_src_0.5": 57,
+        "stay_0.5_pct": 28.1
+      },
+      "UNREG": {
+        "n_src_0.5": 78,
+        "stay_0.5_pct": 23.1
+      }
+    }
+  },
+  "H1_direction_REG-S_highest": true,
+  "H1_band05_below_50pct": true,
+  "r4_cross_qwen_x_kimi": {
+    "n_overlap": 3217,
+    "binary": {
+      "CTL": {
+        "n": 807,
+        "Po": 100.0,
+        "kappa": 1.0,
+        "PABAK": NaN
+      },
+      "REG-S": {
+        "n": 805,
+        "Po": 99.25,
+        "kappa": 0.6629,
+        "PABAK": 0.9851
+      },
+      "REG-H": {
+        "n": 804,
+        "Po": 88.68,
+        "kappa": 0.359,
+        "PABAK": 0.7736
+      },
+      "UNREG": {
+        "n": 801,
+        "Po": 92.26,
+        "kappa": 0.7837,
+        "PABAK": 0.8452
+      }
+    },
+    "three_level": {
+      "CTL": {
+        "n": 807,
+        "Po3": 100.0
+      },
+      "REG-S": {
+        "n": 805,
+        "Po3": 99.13
+      },
+      "REG-H": {
+        "n": 804,
+        "Po3": 88.43
+      },
+      "UNREG": {
+        "n": 801,
+        "Po3": 88.89
+      }
+    }
+  },
+  "r4_cross_qwen_x_deepseek": {
+    "n_overlap": 3220,
+    "binary": {
+      "CTL": {
+        "n": 809,
+        "Po": 100.0,
+        "kappa": 1.0,
+        "PABAK": NaN
+      },
+      "REG-S": {
+        "n": 806,
+        "Po": 97.27,
+        "kappa": 0.4396,
+        "PABAK": 0.9454
+      },
+      "REG-H": {
+        "n": 801,
+        "Po": 80.27,
+        "kappa": 0.2035,
+        "PABAK": 0.6055
+      },
+      "UNREG": {
+        "n": 804,
+        "Po": 86.69,
+        "kappa": 0.6907,
+        "PABAK": 0.7338
+      }
+    },
+    "three_level": {
+      "CTL": {
+        "n": 809,
+        "Po3": 100.0
+      },
+      "REG-S": {
+        "n": 806,
+        "Po3": 97.02
+      },
+      "REG-H": {
+        "n": 801,
+        "Po3": 79.9
+      },
+      "UNREG": {
+        "n": 804,
+        "Po3": 80.72
+      }
+    }
+  },
+  "H2_UNREG_least_reliable_in_both_pairs": false
+}

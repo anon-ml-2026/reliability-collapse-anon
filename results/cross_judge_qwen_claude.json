@@ -1,0 +1,242 @@
+{
+  "metadata": {
+    "qwen_file": "data/scores/r3_judge_qwen.json",
+    "claude_file": "data/scores/r3_judge_claude.json",
+    "qwen_valid": 4316,
+    "claude_valid": 4136,
+    "overlap": 4132,
+    "pair": "Qwen3.6-Plus × Claude-Haiku-4.5 (DeepSeek-free)"
+  },
+  "binary_qwen_claude": {
+    "Overall": {
+      "n": 4132,
+      "Po": 84.12,
+      "kappa": 0.3307,
+      "PABAK": 0.6825,
+      "P_idx": 0.7294,
+      "B_idx": 0.1607,
+      "kappa_CI95": [
+        0.2917,
+        0.3691
+      ]
+    },
+    "CTL": {
+      "n": 1069,
+      "Po": 100.0,
+      "kappa": 1.0,
+      "PABAK": null,
+      "P_idx": null,
+      "B_idx": null,
+      "kappa_CI95": [
+        1.0,
+        1.0
+      ]
+    },
+    "REG-S": {
+      "n": 988,
+      "Po": 86.84,
+      "kappa": 0.2008,
+      "PABAK": 0.7368,
+      "P_idx": 0.8279,
+      "B_idx": 0.2429,
+      "kappa_CI95": [
+        0.1222,
+        0.2813
+      ]
+    },
+    "REG-H": {
+      "n": 1030,
+      "Po": 83.3,
+      "kappa": 0.2893,
+      "PABAK": 0.666,
+      "P_idx": 0.7417,
+      "B_idx": 0.2835,
+      "kappa_CI95": [
+        0.2169,
+        0.3596
+      ]
+    },
+    "UNREG": {
+      "n": 1045,
+      "Po": 66.12,
+      "kappa": 0.233,
+      "PABAK": 0.3225,
+      "P_idx": 0.3474,
+      "B_idx": 0.1263,
+      "kappa_CI95": [
+        0.1712,
+        0.2929
+      ]
+    }
+  },
+  "binary_deepseek_claude_reference": {
+    "Overall": {
+      "n": 4027,
+      "Po": 82.32,
+      "kappa": 0.3702,
+      "PABAK": 0.6464,
+      "P_idx": 0.6623,
+      "B_idx": 0.0169
+    },
+    "CTL": {
+      "n": 1063,
+      "Po": 100.0,
+      "kappa": 1.0,
+      "PABAK": null,
+      "P_idx": null,
+      "B_idx": null
+    },
+    "REG-S": {
+      "n": 966,
+      "Po": 88.2,
+      "kappa": 0.3437,
+      "PABAK": 0.764,
+      "P_idx": 0.8054,
+      "B_idx": 0.1822
+    },
+    "REG-H": {
+      "n": 987,
+      "Po": 76.49,
+      "kappa": 0.2781,
+      "PABAK": 0.5299,
+      "P_idx": 0.5907,
+      "B_idx": 0.0243
+    },
+    "UNREG": {
+      "n": 1011,
+      "Po": 63.8,
+      "kappa": 0.233,
+      "PABAK": 0.276,
+      "P_idx": 0.2404,
+      "B_idx": 0.0831
+    }
+  },
+  "three_level_qwen_claude": {
+    "Overall": {
+      "n": 4132,
+      "Po": 80.66,
+      "kappa": 0.21,
+      "PABAK": 0.7099,
+      "P_idx": 0.7971,
+      "B_idx": 0.1205
+    },
+    "CTL": {
+      "n": 1069,
+      "Po": 100.0,
+      "kappa": 1.0,
+      "PABAK": null,
+      "P_idx": null,
+      "B_idx": null
+    },
+    "REG-S": {
+      "n": 988,
+      "Po": 86.44,
+      "kappa": 0.1803,
+      "PABAK": 0.7966,
+      "P_idx": 0.871,
+      "B_idx": 0.1822
+    },
+    "REG-H": {
+      "n": 1030,
+      "Po": 82.04,
+      "kappa": 0.2462,
+      "PABAK": 0.7306,
+      "P_idx": 0.8063,
+      "B_idx": 0.2126
+    },
+    "UNREG": {
+      "n": 1045,
+      "Po": 54.07,
+      "kappa": 0.0945,
+      "PABAK": 0.311,
+      "P_idx": 0.5105,
+      "B_idx": 0.2943
+    }
+  },
+  "gradient_order_binary_Po": [
+    86.84,
+    83.3,
+    66.12
+  ],
+  "gradient_preserved": true,
+  "sensitivity_excl_qwen_subject": {
+    "Overall": {
+      "n": 3610,
+      "Po": 83.41,
+      "kappa": 0.3324,
+      "PABAK": 0.6681,
+      "P_idx": 0.7139,
+      "B_idx": 0.1634
+    },
+    "CTL": {
+      "n": 938,
+      "Po": 100.0,
+      "kappa": 1.0,
+      "PABAK": null,
+      "P_idx": null,
+      "B_idx": null
+    },
+    "REG-S": {
+      "n": 860,
+      "Po": 85.7,
+      "kappa": 0.2077,
+      "PABAK": 0.714,
+      "P_idx": 0.8105,
+      "B_idx": 0.2674
+    },
+    "REG-H": {
+      "n": 900,
+      "Po": 83.67,
+      "kappa": 0.3137,
+      "PABAK": 0.6733,
+      "P_idx": 0.7367,
+      "B_idx": 0.2733
+    },
+    "UNREG": {
+      "n": 912,
+      "Po": 63.93,
+      "kappa": 0.2074,
+      "PABAK": 0.2785,
+      "P_idx": 0.3059,
+      "B_idx": 0.125
+    }
+  },
+  "consensus_rates": {
+    "CTL": {
+      "n": 1069,
+      "qwen_pos": 0,
+      "claude_pos": 0,
+      "floor": 0.0,
+      "union": 0.0,
+      "qwen_rate": 0.0,
+      "claude_rate": 0.0
+    },
+    "REG-S": {
+      "n": 988,
+      "qwen_pos": 25,
+      "claude_pos": 145,
+      "floor": 2.02,
+      "union": 15.18,
+      "qwen_rate": 2.53,
+      "claude_rate": 14.68
+    },
+    "REG-H": {
+      "n": 1030,
+      "qwen_pos": 60,
+      "claude_pos": 206,
+      "floor": 4.56,
+      "union": 21.26,
+      "qwen_rate": 5.83,
+      "claude_rate": 20.0
+    },
+    "UNREG": {
+      "n": 1045,
+      "qwen_pos": 308,
+      "claude_pos": 374,
+      "floor": 15.69,
+      "union": 49.57,
+      "qwen_rate": 29.47,
+      "claude_rate": 35.79
+    }
+  }
+}

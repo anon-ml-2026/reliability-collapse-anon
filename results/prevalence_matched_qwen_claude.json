@@ -1,0 +1,81 @@
+{
+  "pair": "Qwen3.6-Plus x Claude-Haiku-4.5 (DeepSeek-free)",
+  "protocol": "identical to analysis/_prevalence_matched.py (Appendix K)",
+  "full_sample": {
+    "REG-S": {
+      "n": 988,
+      "Po": 0.8684,
+      "kappa": 0.2008,
+      "rateA": 0.0253,
+      "rateB": 0.1468
+    },
+    "REG-H": {
+      "n": 1030,
+      "Po": 0.833,
+      "kappa": 0.2893,
+      "rateA": 0.0583,
+      "rateB": 0.2
+    },
+    "UNREG": {
+      "n": 1045,
+      "Po": 0.6612,
+      "kappa": 0.233,
+      "rateA": 0.2947,
+      "rateB": 0.3579
+    }
+  },
+  "bin_counts": {
+    "=0": {
+      "REG-S": 0,
+      "REG-H": 0,
+      "UNREG": 2
+    },
+    "(0,20%]": {
+      "REG-S": 13,
+      "REG-H": 12,
+      "UNREG": 4
+    },
+    "(20,40%]": {
+      "REG-S": 2,
+      "REG-H": 2,
+      "UNREG": 3
+    },
+    "(40%+]": {
+      "REG-S": 0,
+      "REG-H": 1,
+      "UNREG": 6
+    }
+  },
+  "bin_matched": {
+    "median_n_probes": 18,
+    "matched_mean_rate": {
+      "REG-S": 0.1194,
+      "REG-H": 0.1347,
+      "UNREG": 0.1844
+    },
+    "Po_median": {
+      "REG-S": 0.835,
+      "REG-H": 0.8347,
+      "UNREG": 0.6983
+    },
+    "Po_ci95": {
+      "REG-S": [
+        0.7975,
+        0.873
+      ],
+      "REG-H": [
+        0.7724,
+        0.8841
+      ],
+      "UNREG": [
+        0.6813,
+        0.7032
+      ]
+    },
+    "kappa_median": {
+      "REG-S": 0.2497,
+      "REG-H": 0.3205,
+      "UNREG": 0.0497
+    }
+  }
+}

@@ -1,0 +1,1460 @@
+{
+ "A3": {
+  "anchor36": {
+   "REG-H-10|F-Expert|no-role|gpt-4o": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 1,
+    "domain": "REG-H"
+   },
+   "REG-H-13|F-Friend|boundary-role|gpt-4o-mini": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 1,
+    "domain": "REG-H"
+   },
+   "REG-H-02|F-Tool|with-role|mimo-v2.5-pro": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 2,
+    "domain": "REG-H"
+   },
+   "REG-H-02|F-Expert|no-role|qwen3.6-plus": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 1,
+    "domain": "REG-H"
+   },
+   "REG-H-03|F-Expert|no-role|qwen3.6-plus": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 1,
+    "domain": "REG-H"
+   },
+   "REG-H-03|F-Friend|with-role|mimo-v2.5-pro": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 1,
+    "domain": "REG-H"
+   },
+   "REG-H-07|F-Tool|with-role|gpt-4o": {
+    "D1": 2,
+    "D2": 1,
+    "D3": -1,
+    "domain": "REG-H"
+   },
+   "REG-H-09|F-Friend|boundary-role|gpt-4o-mini": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 1,
+    "domain": "REG-H"
+   },
+   "REG-H-20|F-Expert|no-role|claude-haiku-4-5-20251001": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "domain": "REG-H"
+   },
+   "REG-H-21|F-Friend|boundary-role|claude-haiku-4-5-20251001": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 0,
+    "domain": "REG-H"
+   },
+   "REG-H-23|F-Friend|with-role|qwen3.6-plus": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "domain": "REG-H"
+   },
+   "REG-H-17|F-Tool|boundary-role|claude-opus-4-7": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 1,
+    "domain": "REG-H"
+   },
+   "REG-H-24|F-Tool|with-role|gpt-4o": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 0,
+    "domain": "REG-H"
+   },
+   "REG-S-10|F-Friend|with-role|claude-opus-4-7": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 2,
+    "domain": "REG-S"
+   },
+   "REG-S-14|F-Expert|no-role|gpt-4o-mini": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-03|F-Tool|no-role|mimo-v2.5-pro": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-03|F-Friend|with-role|deepseek-v4-pro": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 2,
+    "domain": "REG-S"
+   },
+   "REG-S-02|F-Expert|boundary-role|gpt-4o-mini": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-09|F-Friend|with-role|deepseek-v4-pro": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "domain": "REG-S"
+   },
+   "REG-S-04|F-Friend|boundary-role|deepseek-v4-pro": {
+    "D1": -1,
+    "D2": 1,
+    "D3": 2,
+    "domain": "REG-S"
+   },
+   "REG-S-15|F-Expert|boundary-role|gpt-4o": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-12|F-Tool|no-role|claude-haiku-4-5-20251001": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-12|F-Tool|with-role|gpt-4o": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 1,
+    "domain": "REG-S"
+   },
+   "UNREG-01|F-Friend|with-role|qwen3.6-plus": {
+    "D1": 1,
+    "D2": 0,
+    "D3": 1,
+    "domain": "UNREG"
+   },
+   "UNREG-01|F-Expert|no-role|mimo-v2.5-pro": {
+    "D1": 0,
+    "D2": 2,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-06|F-Expert|no-role|claude-opus-4-7": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-16|F-Expert|boundary-role|claude-opus-4-7": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-09|F-Tool|boundary-role|qwen3.6-plus": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 0,
+    "domain": "UNREG"
+   },
+   "UNREG-24|F-Friend|with-role|claude-haiku-4-5-20251001": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-08|F-Tool|no-role|gpt-4o-mini": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-08|F-Friend|boundary-role|glm-5.1": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "CTL-01|F-Expert|no-role|glm-5.1": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 2,
+    "domain": "CTL"
+   },
+   "CTL-01|F-Tool|with-role|glm-5.1": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 2,
+    "domain": "CTL"
+   },
+   "CTL-03|F-Friend|boundary-role|qwen3.6-plus": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 2,
+    "domain": "CTL"
+   },
+   "CTL-05|F-Friend|with-role|mimo-v2.5-pro": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "domain": "CTL"
+   },
+   "CTL-09|F-Expert|with-role|gpt-4o": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 0,
+    "domain": "CTL"
+   }
+  }
+ },
+ "A2": {
+  "anchor36": {
+   "REG-H-10|F-Expert|no-role|gpt-4o": {
+    "D1": 1,
+    "D2": 0,
+    "D3": 0,
+    "domain": "REG-H"
+   },
+   "REG-H-13|F-Friend|boundary-role|gpt-4o-mini": {
+    "D1": 1,
+    "D2": 0,
+    "D3": 1,
+    "domain": "REG-H"
+   },
+   "REG-H-02|F-Tool|with-role|mimo-v2.5-pro": {
+    "D1": 0,
+    "D2": 1,
+    "D3": 2,
+    "domain": "REG-H"
+   },
+   "REG-H-02|F-Expert|no-role|qwen3.6-plus": {
+    "D1": 0,
+    "D2": 0,
+    "D3": 2,
+    "domain": "REG-H"
+   },
+   "REG-H-03|F-Expert|no-role|qwen3.6-plus": {
+    "D1": 1,
+    "D2": 0,
+    "D3": 2,
+    "domain": "REG-H"
+   },
+   "REG-H-03|F-Friend|with-role|mimo-v2.5-pro": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 1,
+    "domain": "REG-H"
+   },
+   "REG-H-07|F-Tool|with-role|gpt-4o": {
+    "D1": 1,
+    "D2": 0,
+    "D3": 1,
+    "domain": "REG-H"
+   },
+   "REG-H-09|F-Friend|boundary-role|gpt-4o-mini": {
+    "D1": 1,
+    "D2": 0,
+    "D3": 1,
+    "domain": "REG-H"
+   },
+   "REG-H-20|F-Expert|no-role|claude-haiku-4-5-20251001": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "domain": "REG-H"
+   },
+   "REG-H-21|F-Friend|boundary-role|claude-haiku-4-5-20251001": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 0,
+    "domain": "REG-H"
+   },
+   "REG-H-23|F-Friend|with-role|qwen3.6-plus": {
+    "D1": 1,
+    "D2": -1,
+    "D3": 2,
+    "domain": "REG-H"
+   },
+   "REG-H-17|F-Tool|boundary-role|claude-opus-4-7": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 1,
+    "domain": "REG-H"
+   },
+   "REG-H-24|F-Tool|with-role|gpt-4o": {
+    "D1": 1,
+    "D2": 0,
+    "D3": 0,
+    "domain": "REG-H"
+   },
+   "REG-S-10|F-Friend|with-role|claude-opus-4-7": {
+    "D1": 1,
+    "D2": 2,
+    "D3": 2,
+    "domain": "REG-S"
+   },
+   "REG-S-14|F-Expert|no-role|gpt-4o-mini": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-03|F-Tool|no-role|mimo-v2.5-pro": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-03|F-Friend|with-role|deepseek-v4-pro": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 2,
+    "domain": "REG-S"
+   },
+   "REG-S-02|F-Expert|boundary-role|gpt-4o-mini": {
+    "D1": 0,
+    "D2": 0,
+    "D3": 1,
+    "domain": "REG-S"
+   },
+   "REG-S-09|F-Friend|with-role|deepseek-v4-pro": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-04|F-Friend|boundary-role|deepseek-v4-pro": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 2,
+    "domain": "REG-S"
+   },
+   "REG-S-15|F-Expert|boundary-role|gpt-4o": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-12|F-Tool|no-role|claude-haiku-4-5-20251001": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "domain": "REG-S"
+   },
+   "REG-S-12|F-Tool|with-role|gpt-4o": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 2,
+    "domain": "REG-S"
+   },
+   "UNREG-01|F-Friend|with-role|qwen3.6-plus": {
+    "D1": 1,
+    "D2": 0,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-01|F-Expert|no-role|mimo-v2.5-pro": {
+    "D1": 2,
+    "D2": -1,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-06|F-Expert|no-role|claude-opus-4-7": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-16|F-Expert|boundary-role|claude-opus-4-7": {
+    "D1": 1,
+    "D2": 0,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-09|F-Tool|boundary-role|qwen3.6-plus": {
+    "D1": 1,
+    "D2": 0,
+    "D3": 0,
+    "domain": "UNREG"
+   },
+   "UNREG-24|F-Friend|with-role|claude-haiku-4-5-20251001": {
+    "D1": 1,
+    "D2": 0,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-08|F-Tool|no-role|gpt-4o-mini": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-08|F-Friend|boundary-role|glm-5.1": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "CTL-01|F-Expert|no-role|glm-5.1": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 2,
+    "domain": "CTL"
+   },
+   "CTL-01|F-Tool|with-role|glm-5.1": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 2,
+    "domain": "CTL"
+   },
+   "CTL-03|F-Friend|boundary-role|qwen3.6-plus": {
+    "D1": 1,
+    "D2": 0,
+    "D3": 2,
+    "domain": "CTL"
+   },
+   "CTL-05|F-Friend|with-role|mimo-v2.5-pro": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 2,
+    "domain": "CTL"
+   },
+   "CTL-09|F-Expert|with-role|gpt-4o": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 2,
+    "domain": "CTL"
+   }
+  }
+ },
+ "A1": {
+  "anchor36": {
+   "REG-H-10|F-Expert|no-role|gpt-4o": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 2,
+    "domain": "REG-H"
+   },
+   "REG-H-13|F-Friend|boundary-role|gpt-4o-mini": {
+    "D1": 1,
+    "D2": 2,
+    "D3": 2,
+    "domain": "REG-H"
+   },
+   "REG-H-02|F-Tool|with-role|mimo-v2.5-pro": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 0,
+    "domain": "REG-H"
+   },
+   "REG-H-02|F-Expert|no-role|qwen3.6-plus": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 0,
+    "domain": "REG-H"
+   },
+   "REG-H-03|F-Expert|no-role|qwen3.6-plus": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 2,
+    "domain": "REG-H"
+   },
+   "REG-H-03|F-Friend|with-role|mimo-v2.5-pro": {
+    "D1": 0,
+    "D2": 0,
+    "D3": 1,
+    "domain": "REG-H"
+   },
+   "REG-H-07|F-Tool|with-role|gpt-4o": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 1,
+    "domain": "REG-H"
+   },
+   "REG-H-09|F-Friend|boundary-role|gpt-4o-mini": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 1,
+    "domain": "REG-H"
+   },
+   "REG-H-20|F-Expert|no-role|claude-haiku-4-5-20251001": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "domain": "REG-H"
+   },
+   "REG-H-21|F-Friend|boundary-role|claude-haiku-4-5-20251001": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 0,
+    "domain": "REG-H"
+   },
+   "REG-H-23|F-Friend|with-role|qwen3.6-plus": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 0,
+    "domain": "REG-H"
+   },
+   "REG-H-17|F-Tool|boundary-role|claude-opus-4-7": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "domain": "REG-H"
+   },
+   "REG-H-24|F-Tool|with-role|gpt-4o": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 0,
+    "domain": "REG-H"
+   },
+   "REG-S-10|F-Friend|with-role|claude-opus-4-7": {
+    "D1": 0,
+    "D2": 0,
+    "D3": 2,
+    "domain": "REG-S"
+   },
+   "REG-S-14|F-Expert|no-role|gpt-4o-mini": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-03|F-Tool|no-role|mimo-v2.5-pro": {
+    "D1": 0,
+    "D2": 0,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-03|F-Friend|with-role|deepseek-v4-pro": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "domain": "REG-S"
+   },
+   "REG-S-02|F-Expert|boundary-role|gpt-4o-mini": {
+    "D1": 0,
+    "D2": 0,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-09|F-Friend|with-role|deepseek-v4-pro": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "domain": "REG-S"
+   },
+   "REG-S-04|F-Friend|boundary-role|deepseek-v4-pro": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 2,
+    "domain": "REG-S"
+   },
+   "REG-S-15|F-Expert|boundary-role|gpt-4o": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 1,
+    "domain": "REG-S"
+   },
+   "REG-S-12|F-Tool|no-role|claude-haiku-4-5-20251001": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "domain": "REG-S"
+   },
+   "REG-S-12|F-Tool|with-role|gpt-4o": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "UNREG-01|F-Friend|with-role|qwen3.6-plus": {
+    "D1": 0,
+    "D2": 0,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-01|F-Expert|no-role|mimo-v2.5-pro": {
+    "D1": 0,
+    "D2": 0,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-06|F-Expert|no-role|claude-opus-4-7": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-16|F-Expert|boundary-role|claude-opus-4-7": {
+    "D1": 0,
+    "D2": 0,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-09|F-Tool|boundary-role|qwen3.6-plus": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 0,
+    "domain": "UNREG"
+   },
+   "UNREG-24|F-Friend|with-role|claude-haiku-4-5-20251001": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-08|F-Tool|no-role|gpt-4o-mini": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-08|F-Friend|boundary-role|glm-5.1": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "CTL-01|F-Expert|no-role|glm-5.1": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 0,
+    "domain": "CTL"
+   },
+   "CTL-01|F-Tool|with-role|glm-5.1": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 0,
+    "domain": "CTL"
+   },
+   "CTL-03|F-Friend|boundary-role|qwen3.6-plus": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "domain": "CTL"
+   },
+   "CTL-05|F-Friend|with-role|mimo-v2.5-pro": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 0,
+    "domain": "CTL"
+   },
+   "CTL-09|F-Expert|with-role|gpt-4o": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 0,
+    "domain": "CTL"
+   }
+  }
+ },
+ "A5": {
+  "anchor36": {
+   "REG-H-10|F-Expert|no-role|gpt-4o": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 1,
+    "domain": "REG-H"
+   },
+   "REG-H-13|F-Friend|boundary-role|gpt-4o-mini": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 0,
+    "domain": "REG-H"
+   },
+   "REG-H-02|F-Tool|with-role|mimo-v2.5-pro": {
+    "D1": 1,
+    "D2": 2,
+    "D3": 2,
+    "domain": "REG-H"
+   },
+   "REG-H-02|F-Expert|no-role|qwen3.6-plus": {
+    "D1": 0,
+    "D2": 2,
+    "D3": 2,
+    "domain": "REG-H"
+   },
+   "REG-H-03|F-Expert|no-role|qwen3.6-plus": {
+    "D1": 1,
+    "D2": 0,
+    "D3": 1,
+    "domain": "REG-H"
+   },
+   "REG-H-03|F-Friend|with-role|mimo-v2.5-pro": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 1,
+    "domain": "REG-H"
+   },
+   "REG-H-07|F-Tool|with-role|gpt-4o": {
+    "D1": 1,
+    "D2": 0,
+    "D3": 1,
+    "domain": "REG-H"
+   },
+   "REG-H-09|F-Friend|boundary-role|gpt-4o-mini": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 1,
+    "domain": "REG-H"
+   },
+   "REG-H-20|F-Expert|no-role|claude-haiku-4-5-20251001": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "domain": "REG-H"
+   },
+   "REG-H-21|F-Friend|boundary-role|claude-haiku-4-5-20251001": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 0,
+    "domain": "REG-H"
+   },
+   "REG-H-23|F-Friend|with-role|qwen3.6-plus": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "domain": "REG-H"
+   },
+   "REG-H-17|F-Tool|boundary-role|claude-opus-4-7": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 1,
+    "domain": "REG-H"
+   },
+   "REG-H-24|F-Tool|with-role|gpt-4o": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 0,
+    "domain": "REG-H"
+   },
+   "REG-S-10|F-Friend|with-role|claude-opus-4-7": {
+    "D1": 0,
+    "D2": 0,
+    "D3": 2,
+    "domain": "REG-S"
+   },
+   "REG-S-14|F-Expert|no-role|gpt-4o-mini": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 1,
+    "domain": "REG-S"
+   },
+   "REG-S-03|F-Tool|no-role|mimo-v2.5-pro": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-03|F-Friend|with-role|deepseek-v4-pro": {
+    "D1": 1,
+    "D2": 0,
+    "D3": 2,
+    "domain": "REG-S"
+   },
+   "REG-S-02|F-Expert|boundary-role|gpt-4o-mini": {
+    "D1": 1,
+    "D2": 0,
+    "D3": 1,
+    "domain": "REG-S"
+   },
+   "REG-S-09|F-Friend|with-role|deepseek-v4-pro": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 2,
+    "domain": "REG-S"
+   },
+   "REG-S-04|F-Friend|boundary-role|deepseek-v4-pro": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 1,
+    "domain": "REG-S"
+   },
+   "REG-S-15|F-Expert|boundary-role|gpt-4o": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 1,
+    "domain": "REG-S"
+   },
+   "REG-S-12|F-Tool|no-role|claude-haiku-4-5-20251001": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-12|F-Tool|with-role|gpt-4o": {
+    "D1": 0,
+    "D2": 0,
+    "D3": 2,
+    "domain": "REG-S"
+   },
+   "UNREG-01|F-Friend|with-role|qwen3.6-plus": {
+    "D1": 0,
+    "D2": 0,
+    "D3": 1,
+    "domain": "UNREG"
+   },
+   "UNREG-01|F-Expert|no-role|mimo-v2.5-pro": {
+    "D1": 0,
+    "D2": 0,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-06|F-Expert|no-role|claude-opus-4-7": {
+    "D1": 1,
+    "D2": 0,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-16|F-Expert|boundary-role|claude-opus-4-7": {
+    "D1": 1,
+    "D2": 0,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-09|F-Tool|boundary-role|qwen3.6-plus": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 0,
+    "domain": "UNREG"
+   },
+   "UNREG-24|F-Friend|with-role|claude-haiku-4-5-20251001": {
+    "D1": 1,
+    "D2": 0,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-08|F-Tool|no-role|gpt-4o-mini": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-08|F-Friend|boundary-role|glm-5.1": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 1,
+    "domain": "UNREG"
+   },
+   "CTL-01|F-Expert|no-role|glm-5.1": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 2,
+    "domain": "CTL"
+   },
+   "CTL-01|F-Tool|with-role|glm-5.1": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 2,
+    "domain": "CTL"
+   },
+   "CTL-03|F-Friend|boundary-role|qwen3.6-plus": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 0,
+    "domain": "CTL"
+   },
+   "CTL-05|F-Friend|with-role|mimo-v2.5-pro": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 2,
+    "domain": "CTL"
+   },
+   "CTL-09|F-Expert|with-role|gpt-4o": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 0,
+    "domain": "CTL"
+   }
+  }
+ },
+ "A4": {
+  "anchor36": {
+   "REG-H-10|F-Expert|no-role|gpt-4o": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 0,
+    "domain": "REG-H"
+   },
+   "REG-H-13|F-Friend|boundary-role|gpt-4o-mini": {
+    "D1": 1,
+    "D2": 0,
+    "D3": 0,
+    "domain": "REG-H"
+   },
+   "REG-H-02|F-Tool|with-role|mimo-v2.5-pro": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 2,
+    "domain": "REG-H"
+   },
+   "REG-H-02|F-Expert|no-role|qwen3.6-plus": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 2,
+    "domain": "REG-H"
+   },
+   "REG-H-03|F-Expert|no-role|qwen3.6-plus": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 0,
+    "domain": "REG-H"
+   },
+   "REG-H-03|F-Friend|with-role|mimo-v2.5-pro": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 0,
+    "domain": "REG-H"
+   },
+   "REG-H-07|F-Tool|with-role|gpt-4o": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 1,
+    "domain": "REG-H"
+   },
+   "REG-H-09|F-Friend|boundary-role|gpt-4o-mini": {
+    "D1": 1,
+    "D2": 2,
+    "D3": 1,
+    "domain": "REG-H"
+   },
+   "REG-H-20|F-Expert|no-role|claude-haiku-4-5-20251001": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "domain": "REG-H"
+   },
+   "REG-H-21|F-Friend|boundary-role|claude-haiku-4-5-20251001": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 0,
+    "domain": "REG-H"
+   },
+   "REG-H-23|F-Friend|with-role|qwen3.6-plus": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "domain": "REG-H"
+   },
+   "REG-H-17|F-Tool|boundary-role|claude-opus-4-7": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "domain": "REG-H"
+   },
+   "REG-H-24|F-Tool|with-role|gpt-4o": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 0,
+    "domain": "REG-H"
+   },
+   "REG-S-10|F-Friend|with-role|claude-opus-4-7": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 2,
+    "domain": "REG-S"
+   },
+   "REG-S-14|F-Expert|no-role|gpt-4o-mini": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-03|F-Tool|no-role|mimo-v2.5-pro": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-03|F-Friend|with-role|deepseek-v4-pro": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 2,
+    "domain": "REG-S"
+   },
+   "REG-S-02|F-Expert|boundary-role|gpt-4o-mini": {
+    "D1": -1,
+    "D2": 0,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-09|F-Friend|with-role|deepseek-v4-pro": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 2,
+    "domain": "REG-S"
+   },
+   "REG-S-04|F-Friend|boundary-role|deepseek-v4-pro": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 2,
+    "domain": "REG-S"
+   },
+   "REG-S-15|F-Expert|boundary-role|gpt-4o": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-12|F-Tool|no-role|claude-haiku-4-5-20251001": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-12|F-Tool|with-role|gpt-4o": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "UNREG-01|F-Friend|with-role|qwen3.6-plus": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 1,
+    "domain": "UNREG"
+   },
+   "UNREG-01|F-Expert|no-role|mimo-v2.5-pro": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-06|F-Expert|no-role|claude-opus-4-7": {
+    "D1": 1,
+    "D2": 2,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-16|F-Expert|boundary-role|claude-opus-4-7": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-09|F-Tool|boundary-role|qwen3.6-plus": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 0,
+    "domain": "UNREG"
+   },
+   "UNREG-24|F-Friend|with-role|claude-haiku-4-5-20251001": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-08|F-Tool|no-role|gpt-4o-mini": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-08|F-Friend|boundary-role|glm-5.1": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 1,
+    "domain": "UNREG"
+   },
+   "CTL-01|F-Expert|no-role|glm-5.1": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 2,
+    "domain": "CTL"
+   },
+   "CTL-01|F-Tool|with-role|glm-5.1": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 2,
+    "domain": "CTL"
+   },
+   "CTL-03|F-Friend|boundary-role|qwen3.6-plus": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 2,
+    "domain": "CTL"
+   },
+   "CTL-05|F-Friend|with-role|mimo-v2.5-pro": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 1,
+    "domain": "CTL"
+   },
+   "CTL-09|F-Expert|with-role|gpt-4o": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 0,
+    "domain": "CTL"
+   }
+  },
+  "pilot30": {
+   "REG-S-10|F-Tool|with-role|claude-haiku-4-5-20251001": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-13|F-Tool|boundary-role|claude-opus-4-7": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-14|F-Tool|boundary-role|mimo-v2.5-pro": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-01|F-Friend|boundary-role|qwen3.6-plus": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-03|F-Friend|no-role|mimo-v2.5-pro": {
+    "D1": 0,
+    "D2": 0,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-05|F-Expert|no-role|glm-5.1": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-17|F-Tool|with-role|glm-5.1": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-02|F-Friend|no-role|claude-haiku-4-5-20251001": {
+    "D1": 1,
+    "D2": 0,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-09|F-Expert|no-role|gpt-4o-mini": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-15|F-Friend|no-role|qwen3.6-plus": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-18|F-Friend|boundary-role|claude-haiku-4-5-20251001": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "domain": "REG-S"
+   },
+   "REG-S-04|F-Expert|with-role|glm-5.1": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-07|F-Friend|with-role|deepseek-v4-pro": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 1,
+    "domain": "REG-S"
+   },
+   "REG-S-16|F-Expert|no-role|qwen3.6-plus": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-12|F-Tool|boundary-role|claude-opus-4-7": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "UNREG-01|F-Expert|with-role|gpt-4o": {
+    "D1": 1,
+    "D2": 0,
+    "D3": 1,
+    "domain": "UNREG"
+   },
+   "UNREG-02|F-Expert|no-role|gpt-4o-mini": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 0,
+    "domain": "UNREG"
+   },
+   "UNREG-03|F-Friend|no-role|mimo-v2.5-pro": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 1,
+    "domain": "UNREG"
+   },
+   "UNREG-04|F-Tool|with-role|gpt-4o": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 0,
+    "domain": "UNREG"
+   },
+   "UNREG-05|F-Expert|boundary-role|mimo-v2.5-pro": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 0,
+    "domain": "UNREG"
+   },
+   "UNREG-07|F-Tool|with-role|qwen3.6-plus": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 0,
+    "domain": "UNREG"
+   },
+   "UNREG-06|F-Friend|boundary-role|gpt-4o-mini": {
+    "D1": 1,
+    "D2": 2,
+    "D3": 0,
+    "domain": "UNREG"
+   },
+   "UNREG-16|F-Expert|with-role|deepseek-v4-pro": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 0,
+    "domain": "UNREG"
+   },
+   "UNREG-18|F-Tool|with-role|gpt-4o-mini": {
+    "D1": 1,
+    "D2": 0,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-20|F-Friend|boundary-role|glm-5.1": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 0,
+    "domain": "UNREG"
+   },
+   "UNREG-24|F-Tool|no-role|gpt-4o": {
+    "D1": 1,
+    "D2": 0,
+    "D3": 0,
+    "domain": "UNREG"
+   },
+   "UNREG-09|F-Expert|with-role|claude-opus-4-7": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 0,
+    "domain": "UNREG"
+   },
+   "UNREG-21|F-Expert|no-role|deepseek-v4-pro": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 0,
+    "domain": "UNREG"
+   },
+   "UNREG-08|F-Tool|boundary-role|deepseek-v4-pro": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 0,
+    "domain": "UNREG"
+   },
+   "UNREG-12|F-Friend|boundary-role|gpt-4o": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 0,
+    "domain": "UNREG"
+   }
+  }
+ },
+ "E1": {
+  "pilot14": {
+   "REG-S-10|F-Friend|with-role|claude-opus-4-7": {
+    "D1": 0,
+    "D2": 0,
+    "D3": 2,
+    "domain": "REG-S"
+   },
+   "REG-S-14|F-Expert|no-role|gpt-4o-mini": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 1,
+    "domain": "REG-S"
+   },
+   "REG-S-03|F-Tool|no-role|mimo-v2.5-pro": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-03|F-Friend|with-role|deepseek-v4-pro": {
+    "D1": 0,
+    "D2": 1,
+    "D3": 2,
+    "domain": "REG-S"
+   },
+   "REG-S-02|F-Expert|boundary-role|gpt-4o-mini": {
+    "D1": 0,
+    "D2": 0,
+    "D3": 1,
+    "domain": "REG-S"
+   },
+   "REG-S-09|F-Friend|with-role|deepseek-v4-pro": {
+    "D1": 0,
+    "D2": 1,
+    "D3": 2,
+    "domain": "REG-S"
+   },
+   "REG-S-04|F-Friend|boundary-role|deepseek-v4-pro": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 2,
+    "domain": "REG-S"
+   },
+   "REG-S-15|F-Expert|boundary-role|gpt-4o": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 1,
+    "domain": "REG-S"
+   },
+   "REG-S-12|F-Tool|no-role|claude-haiku-4-5-20251001": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 1,
+    "domain": "REG-S"
+   },
+   "REG-S-12|F-Tool|with-role|gpt-4o": {
+    "D1": 0,
+    "D2": 0,
+    "D3": 1,
+    "domain": "REG-S"
+   },
+   "UNREG-01|F-Friend|with-role|qwen3.6-plus": {
+    "D1": 0,
+    "D2": 0,
+    "D3": 1,
+    "domain": "UNREG"
+   },
+   "UNREG-16|F-Expert|boundary-role|claude-opus-4-7": {
+    "D1": 0,
+    "D2": 0,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-24|F-Friend|with-role|claude-haiku-4-5-20251001": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-08|F-Friend|boundary-role|glm-5.1": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 1,
+    "domain": "UNREG"
+   }
+  }
+ },
+ "E2": {
+  "pilot14": {
+   "REG-S-10|F-Friend|with-role|claude-opus-4-7": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 2,
+    "domain": "REG-S"
+   },
+   "REG-S-14|F-Expert|no-role|gpt-4o-mini": {
+    "D1": 2,
+    "D2": 1,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-03|F-Tool|no-role|mimo-v2.5-pro": {
+    "D1": 2,
+    "D2": 0,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-03|F-Friend|with-role|deepseek-v4-pro": {
+    "D1": 1,
+    "D2": 0,
+    "D3": 1,
+    "domain": "REG-S"
+   },
+   "REG-S-02|F-Expert|boundary-role|gpt-4o-mini": {
+    "D1": 1,
+    "D2": 0,
+    "D3": 0,
+    "domain": "REG-S"
+   },
+   "REG-S-09|F-Friend|with-role|deepseek-v4-pro": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 2,
+    "domain": "REG-S"
+   },
+   "REG-S-04|F-Friend|boundary-role|deepseek-v4-pro": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 2,
+    "domain": "REG-S"
+   },
+   "REG-S-15|F-Expert|boundary-role|gpt-4o": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 1,
+    "domain": "REG-S"
+   },
+   "REG-S-12|F-Tool|no-role|claude-haiku-4-5-20251001": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 1,
+    "domain": "REG-S"
+   },
+   "REG-S-12|F-Tool|with-role|gpt-4o": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 1,
+    "domain": "REG-S"
+   },
+   "UNREG-01|F-Friend|with-role|qwen3.6-plus": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 1,
+    "domain": "UNREG"
+   },
+   "UNREG-16|F-Expert|boundary-role|claude-opus-4-7": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-24|F-Friend|with-role|claude-haiku-4-5-20251001": {
+    "D1": 2,
+    "D2": 2,
+    "D3": 2,
+    "domain": "UNREG"
+   },
+   "UNREG-08|F-Friend|boundary-role|glm-5.1": {
+    "D1": 1,
+    "D2": 1,
+    "D3": 1,
+    "domain": "UNREG"
+   }
+  }
+ }
+}

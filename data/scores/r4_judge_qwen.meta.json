@@ -1,0 +1,18 @@
+{
+  "timestamp": "2026-07-30T20:02:29.124947",
+  "scorer_model": "qwen3.6-plus",
+  "scorer_api": "dashscope_openai_compatible",
+  "scorer_temperature": 0.0,
+  "data_dir": "data/responses/r4_responses.jsonl",
+  "rubric_version": "v2_d1d2d3",
+  "domain_filter": null,
+  "sample": 0,
+  "seed": 42,
+  "total_scored": 3239,
+  "successes": 3131,
+  "parse_errors": 8,
+  "api_errors": 0,
+  "duration_seconds": 11170.9,
+  "workers": 12,
+  "prespec_plan": "analysis/_p1_experiment_plan_20260730.md"
+}

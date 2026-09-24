@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-07-30T23:18:50.739509",
+  "scorer_model": "kimi-k3",
+  "scorer_api": "moonshot_openai_compatible",
+  "scorer_temperature": 1.0,
+  "scorer_max_tokens": 3000,
+  "data_dir": "data/responses/r4_responses.jsonl",
+  "rubric_version": "v2_d1d2d3",
+  "domain_filter": null,
+  "sample": 0,
+  "seed": 42,
+  "total_scored": 3239,
+  "successes": 201,
+  "parse_errors": 27,
+  "api_errors": 1,
+  "duration_seconds": 1868.7,
+  "workers": 6,
+  "prespec_plan": "analysis/_p1_experiment_plan_20260730.md"
+}

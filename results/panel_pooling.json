@@ -1,0 +1,98 @@
+{
+ "description": "Pooled professional (E1/E2/A4) and lay (A1/A2/A3/A5) judgments vs AI judges, by domain (Section 5.3)",
+ "expert_judgments_total": 75,
+ "per_rater_counts": {
+  "E1|REG-S": 10,
+  "E1|UNREG": 4,
+  "E2|REG-S": 10,
+  "E2|UNREG": 4,
+  "A4|REG-S": 24,
+  "A4|UNREG": 23
+ },
+ "panel_vs_judges": {
+  "deepseek": {
+   "REG-S": {
+    "n": 44,
+    "three_level": {
+     "Po": 0.6591,
+     "kappa": 0.4305,
+     "pabak": 0.4886
+    },
+    "binary": {
+     "Po": 0.7045,
+     "kappa": 0.4163,
+     "pabak": 0.4091
+    }
+   },
+   "UNREG": {
+    "n": 31,
+    "three_level": {
+     "Po": 0.5806,
+     "kappa": 0.3742,
+     "pabak": 0.371
+    },
+    "binary": {
+     "Po": 0.7742,
+     "kappa": 0.5634,
+     "pabak": 0.5484
+    }
+   }
+  },
+  "claude": {
+   "REG-S": {
+    "n": 40,
+    "three_level": {
+     "Po": 0.65,
+     "kappa": 0.3277,
+     "pabak": 0.475
+    },
+    "binary": {
+     "Po": 0.675,
+     "kappa": 0.2973,
+     "pabak": 0.35
+    }
+   },
+   "UNREG": {
+    "n": 30,
+    "three_level": {
+     "Po": 0.4667,
+     "kappa": 0.0588,
+     "pabak": 0.2
+    },
+    "binary": {
+     "Po": 0.5333,
+     "kappa": 0.0455,
+     "pabak": 0.0667
+    }
+   }
+  }
+ },
+ "lay_panel_vs_deepseek": {
+  "REG-S": {
+   "n": 39,
+   "three_level": {
+    "Po": 0.5385,
+    "kappa": 0.2866,
+    "pabak": 0.3077
+   },
+   "binary": {
+    "Po": 0.7179,
+    "kappa": 0.4436,
+    "pabak": 0.4359
+   }
+  },
+  "UNREG": {
+   "n": 31,
+   "three_level": {
+    "Po": 0.4516,
+    "kappa": 0.245,
+    "pabak": 0.1774
+   },
+   "binary": {
+    "Po": 0.5806,
+    "kappa": 0.2175,
+    "pabak": 0.1613
+   }
+  }
+ }
+}

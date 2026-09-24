@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-07-30T15:57:28.303888",
+  "scorer_model": "qwen3.6-plus",
+  "scorer_api": "dashscope_openai_compatible",
+  "scorer_temperature": 0.0,
+  "data_dir": "data/responses/r3_responses.jsonl",
+  "total_scored": 4320,
+  "successes": 1,
+  "parse_errors": 3,
+  "api_errors": 1,
+  "duration_seconds": 54.9,
+  "workers": 5,
+  "rubric_version": "v2_d1d2d3",
+  "replication_of": "scripts/run_v2_scoring_deepseek.py (R3 pipeline)"
+}

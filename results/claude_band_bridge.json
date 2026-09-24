@@ -1,0 +1,81 @@
+{
+  "prespec": "preregistration/validation_suite_20260730.md",
+  "rule": "claude_subject retention <= other + 10pp => instability generalizes",
+  "comparisons": {
+    "DS 0.5 -> read by Qwen": {
+      "claude_subject": {
+        "n": 45,
+        "stay0.5_pct": 13.3
+      },
+      "other_6_models": {
+        "n": 151,
+        "stay0.5_pct": 14.6
+      },
+      "delta_pp": -1.3,
+      "diff_CI95": [
+        -0.1188,
+        0.1054
+      ],
+      "pass_rule": true
+    },
+    "DS 0.5 -> read by Claude": {
+      "claude_subject": {
+        "n": 43,
+        "stay0.5_pct": 32.6
+      },
+      "other_6_models": {
+        "n": 143,
+        "stay0.5_pct": 25.2
+      },
+      "delta_pp": 7.4,
+      "diff_CI95": [
+        -0.0822,
+        0.2332
+      ],
+      "pass_rule": true
+    },
+    "Claude 0.5 -> read by Qwen": {
+      "claude_subject": {
+        "n": 71,
+        "stay0.5_pct": 8.5
+      },
+      "other_6_models": {
+        "n": 244,
+        "stay0.5_pct": 4.1
+      },
+      "delta_pp": 4.4,
+      "diff_CI95": [
+        -0.0228,
+        0.1145
+      ],
+      "pass_rule": true
+    },
+    "Qwen 0.5 -> read by DS": {
+      "claude_subject": {
+        "n": 14,
+        "stay0.5_pct": 42.9
+      },
+      "other_6_models": {
+        "n": 43,
+        "stay0.5_pct": 51.2
+      },
+      "delta_pp": -8.3,
+      "diff_CI95": [
+        -0.379,
+        0.2159
+      ],
+      "pass_rule": true
+    }
+  },
+  "reference_qwen_claude_binary_Po": {
+    "claude_subject": {
+      "n": 1021,
+      "binary_Po_pct": 86.1
+    },
+    "other_6_models": {
+      "n": 3111,
+      "binary_Po_pct": 83.5
+    }
+  },
+  "verdict": "0.5-band instability generalizes to Claude-subject trials"
+}

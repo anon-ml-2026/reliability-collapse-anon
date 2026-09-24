@@ -1,0 +1,19 @@
+{
+  "timestamp": "2026-07-30T17:40:28.794393",
+  "scorer_model": "deepseek-v4-pro",
+  "scorer_api": "deepseek_openai_compatible",
+  "scorer_temperature": 0.0,
+  "scorer_max_tokens": 1500,
+  "data_dir": "data/responses/r3_responses.jsonl",
+  "rubric_version": "v2_d1d2d3_unreganchored",
+  "domain_filter": "REG-S",
+  "sample": 300,
+  "seed": 20260730,
+  "total_scored": 1379,
+  "successes": 11,
+  "parse_errors": 2,
+  "api_errors": 2,
+  "duration_seconds": 50.4,
+  "workers": 10,
+  "prespec_plan": "analysis/_p1_experiment_plan_20260730.md"
+}

@@ -1,0 +1,145 @@
+{
+  "method": "Hui-Walter latent class, 2 tests x 3 populations, conditional independence; EM multistart; bootstrap percentile CI (resampled multinomial, seed 20260728)",
+  "tables_2x2": {
+    "REG-S": {
+      "n": 966,
+      "both_pos": 37,
+      "a_only": 13,
+      "b_only": 101,
+      "both_neg": 815,
+      "binary_agree_pct": 88.2
+    },
+    "REG-H": {
+      "n": 987,
+      "both_pos": 86,
+      "a_only": 122,
+      "b_only": 110,
+      "both_neg": 669,
+      "binary_agree_pct": 76.49
+    },
+    "UNREG": {
+      "n": 1011,
+      "both_pos": 201,
+      "a_only": 204,
+      "b_only": 162,
+      "both_neg": 444,
+      "binary_agree_pct": 63.8
+    }
+  },
+  "mle": {
+    "se_DeepSeek": 0.617,
+    "sp_DeepSeek": 1.0,
+    "se_Claude": 0.4887,
+    "sp_Claude": 0.909,
+    "prevalence": {
+      "REG-S": 0.0851,
+      "REG-H": 0.333,
+      "UNREG": 0.6563
+    }
+  },
+  "prevalence_ci95": {
+    "REG-S": [
+      0.0606,
+      0.1131
+    ],
+    "REG-H": [
+      0.2864,
+      0.3842
+    ],
+    "UNREG": [
+      0.5935,
+      0.7194
+    ]
+  },
+  "se_ci95": {
+    "DeepSeek": [
+      0.5595,
+      0.6813
+    ],
+    "Claude": [
+      0.4505,
+      0.5262
+    ]
+  },
+  "sp_ci95": {
+    "DeepSeek": [
+      1.0,
+      1.0
+    ],
+    "Claude": [
+      0.8887,
+      0.9307
+    ]
+  },
+  "gof": {
+    "chi2": 19.258,
+    "dof": 2,
+    "p": 0.0001
+  },
+  "expected_counts": {
+    "REG-S": {
+      "both_pos": 24.8,
+      "a_only": 25.9,
+      "b_only": 95.8,
+      "both_neg": 819.5
+    },
+    "REG-H": {
+      "both_pos": 99.1,
+      "a_only": 103.7,
+      "b_only": 121.4,
+      "both_neg": 662.8
+    },
+    "UNREG": {
+      "both_pos": 200.1,
+      "a_only": 209.3,
+      "b_only": 155.8,
+      "both_neg": 445.8
+    }
+  },
+  "rogan_gladen_from_apparent": {
+    "REG-S": {
+      "judge_A": 0.0839,
+      "judge_B": 0.1304
+    },
+    "REG-H": {
+      "judge_A": 0.3415,
+      "judge_B": 0.2706
+    },
+    "UNREG": {
+      "judge_A": 0.6492,
+      "judge_B": 0.674
+    }
+  },
+  "apparent_rates": {
+    "REG-S": {
+      "A_DeepSeek": 0.0518,
+      "B_Claude": 0.1429
+    },
+    "REG-H": {
+      "A_DeepSeek": 0.2107,
+      "B_Claude": 0.1986
+    },
+    "UNREG": {
+      "A_DeepSeek": 0.4006,
+      "B_Claude": 0.3591
+    }
+  },
+  "bracket_check": {
+    "REG-S": {
+      "floor": 0.0383,
+      "naive_A": 0.0518,
+      "hw_estimate": 0.0851
+    },
+    "REG-H": {
+      "floor": 0.0871,
+      "naive_A": 0.2107,
+      "hw_estimate": 0.333
+    },
+    "UNREG": {
+      "floor": 0.1988,
+      "naive_A": 0.4006,
+      "hw_estimate": 0.6563
+    }
+  },
+  "n_boot_valid": 1000
+}
