@@ -1,0 +1,439 @@
+{
+ "table1_d1_distribution": {
+  "no-role": {
+   "n": 1046,
+   "D1=0": 0.0325,
+   "D1=1": 0.0966,
+   "D1=2": 0.8709,
+   "mean": 1.838
+  },
+  "with-role": {
+   "n": 1030,
+   "D1=0": 0.0398,
+   "D1=1": 0.0981,
+   "D1=2": 0.8621,
+   "mean": 1.822
+  },
+  "boundary-role": {
+   "n": 1051,
+   "D1=0": 0.0362,
+   "D1=1": 0.0885,
+   "D1=2": 0.8754,
+   "mean": 1.839
+  }
+ },
+ "table2_d2_by_model": {
+  "claude-haiku-4-5-20251001": {
+   "means": {
+    "no-role": 0.924,
+    "boundary-role": 0.841,
+    "with-role": 1.047
+   },
+   "delta_no_bnd": 0.083,
+   "ci_no_bnd": [
+    -0.06,
+    0.22
+   ],
+   "delta_role_bnd": 0.206,
+   "ci_role_bnd": [
+    0.07,
+    0.34
+   ],
+   "higher_response_group": false
+  },
+  "claude-opus-4-7": {
+   "means": {
+    "with-role": 0.961,
+    "no-role": 0.791,
+    "boundary-role": 0.858
+   },
+   "delta_no_bnd": -0.068,
+   "ci_no_bnd": [
+    -0.22,
+    0.08
+   ],
+   "delta_role_bnd": 0.102,
+   "ci_role_bnd": [
+    -0.05,
+    0.26
+   ],
+   "higher_response_group": false
+  },
+  "deepseek-v4-pro": {
+   "means": {
+    "no-role": 0.862,
+    "with-role": 0.954,
+    "boundary-role": 0.458
+   },
+   "delta_no_bnd": 0.404,
+   "ci_no_bnd": [
+    0.24,
+    0.56
+   ],
+   "delta_role_bnd": 0.496,
+   "ci_role_bnd": [
+    0.34,
+    0.64
+   ],
+   "higher_response_group": true
+  },
+  "glm-5.1": {
+   "means": {
+    "no-role": 0.76,
+    "boundary-role": 0.402,
+    "with-role": 1.142
+   },
+   "delta_no_bnd": 0.358,
+   "ci_no_bnd": [
+    0.19,
+    0.52
+   ],
+   "delta_role_bnd": 0.74,
+   "ci_role_bnd": [
+    0.57,
+    0.9
+   ],
+   "higher_response_group": true
+  },
+  "gpt-4o": {
+   "means": {
+    "with-role": 0.909,
+    "no-role": 0.87,
+    "boundary-role": 0.837
+   },
+   "delta_no_bnd": 0.033,
+   "ci_no_bnd": [
+    -0.06,
+    0.12
+   ],
+   "delta_role_bnd": 0.072,
+   "ci_role_bnd": [
+    -0.02,
+    0.16
+   ],
+   "higher_response_group": false
+  },
+  "gpt-4o-mini": {
+   "means": {
+    "no-role": 0.879,
+    "boundary-role": 0.889,
+    "with-role": 0.91
+   },
+   "delta_no_bnd": -0.01,
+   "ci_no_bnd": [
+    -0.11,
+    0.09
+   ],
+   "delta_role_bnd": 0.021,
+   "ci_role_bnd": [
+    -0.07,
+    0.11
+   ],
+   "higher_response_group": false
+  },
+  "mimo-v2.5-pro": {
+   "means": {
+    "no-role": 0.758,
+    "with-role": 0.876,
+    "boundary-role": 0.688
+   },
+   "delta_no_bnd": 0.07,
+   "ci_no_bnd": [
+    -0.08,
+    0.22
+   ],
+   "delta_role_bnd": 0.188,
+   "ci_role_bnd": [
+    0.03,
+    0.34
+   ],
+   "higher_response_group": false
+  },
+  "qwen3.6-plus": {
+   "means": {
+    "boundary-role": 0.321,
+    "no-role": 0.702,
+    "with-role": 1.0
+   },
+   "delta_no_bnd": 0.382,
+   "ci_no_bnd": [
+    0.23,
+    0.53
+   ],
+   "delta_role_bnd": 0.679,
+   "ci_role_bnd": [
+    0.53,
+    0.84
+   ],
+   "higher_response_group": true
+  }
+ },
+ "table4_d2_by_domain": {
+  "REG-H_higher": {
+   "means": {
+    "boundary-role": 0.176,
+    "with-role": 1.295,
+    "no-role": 0.523
+   },
+   "swing": 1.119
+  },
+  "REG-H_lower": {
+   "means": {
+    "no-role": 0.822,
+    "with-role": 1.027,
+    "boundary-role": 0.789
+   },
+   "swing": 0.238
+  },
+  "REG-S_higher": {
+   "means": {
+    "boundary-role": 0.443,
+    "no-role": 0.93,
+    "with-role": 0.939
+   },
+   "swing": 0.496
+  },
+  "REG-S_lower": {
+   "means": {
+    "no-role": 0.893,
+    "boundary-role": 0.865,
+    "with-role": 0.958
+   },
+   "swing": 0.093
+  },
+  "UNREG_higher": {
+   "means": {
+    "no-role": 0.871,
+    "boundary-role": 0.561,
+    "with-role": 0.875
+   },
+   "swing": 0.314
+  },
+  "UNREG_lower": {
+   "means": {
+    "with-role": 0.833,
+    "no-role": 0.817,
+    "boundary-role": 0.815
+   },
+   "swing": 0.018
+  }
+ },
+ "table5_d3_by_model": {
+  "claude-haiku-4-5-20251001": {
+   "no_role": 0.508,
+   "boundary": 0.364,
+   "delta": 0.144
+  },
+  "claude-opus-4-7": {
+   "no_role": 0.512,
+   "boundary": 0.409,
+   "delta": 0.102
+  },
+  "deepseek-v4-pro": {
+   "no_role": 0.438,
+   "boundary": 0.252,
+   "delta": 0.187
+  },
+  "glm-5.1": {
+   "no_role": 0.419,
+   "boundary": 0.235,
+   "delta": 0.184
+  },
+  "gpt-4o": {
+   "no_role": 0.405,
+   "boundary": 0.341,
+   "delta": 0.064
+  },
+  "gpt-4o-mini": {
+   "no_role": 0.424,
+   "boundary": 0.43,
+   "delta": -0.005
+  },
+  "mimo-v2.5-pro": {
+   "no_role": 0.477,
+   "boundary": 0.43,
+   "delta": 0.048
+  },
+  "qwen3.6-plus": {
+   "no_role": 0.198,
+   "boundary": 0.092,
+   "delta": 0.107
+  }
+ },
+ "appendix_role_to_bnd_three_judges": {
+  "deepseek": {
+   "claude-haiku-4-5-20251001": {
+    "drop": 0.206,
+    "ci": [
+     0.07,
+     0.34
+    ]
+   },
+   "claude-opus-4-7": {
+    "drop": 0.102,
+    "ci": [
+     -0.05,
+     0.26
+    ]
+   },
+   "deepseek-v4-pro": {
+    "drop": 0.496,
+    "ci": [
+     0.34,
+     0.64
+    ]
+   },
+   "glm-5.1": {
+    "drop": 0.74,
+    "ci": [
+     0.57,
+     0.9
+    ]
+   },
+   "gpt-4o": {
+    "drop": 0.072,
+    "ci": [
+     -0.02,
+     0.16
+    ]
+   },
+   "gpt-4o-mini": {
+    "drop": 0.021,
+    "ci": [
+     -0.07,
+     0.11
+    ]
+   },
+   "mimo-v2.5-pro": {
+    "drop": 0.188,
+    "ci": [
+     0.03,
+     0.34
+    ]
+   },
+   "qwen3.6-plus": {
+    "drop": 0.679,
+    "ci": [
+     0.53,
+     0.84
+    ]
+   }
+  },
+  "qwen": {
+   "claude-haiku-4-5-20251001": {
+    "drop": 0.172,
+    "ci": [
+     0.04,
+     0.31
+    ]
+   },
+   "claude-opus-4-7": {
+    "drop": 0.195,
+    "ci": [
+     0.06,
+     0.33
+    ]
+   },
+   "deepseek-v4-pro": {
+    "drop": 0.519,
+    "ci": [
+     0.39,
+     0.66
+    ]
+   },
+   "glm-5.1": {
+    "drop": 0.837,
+    "ci": [
+     0.69,
+     0.99
+    ]
+   },
+   "gpt-4o": {
+    "drop": 0.104,
+    "ci": [
+     0.01,
+     0.19
+    ]
+   },
+   "gpt-4o-mini": {
+    "drop": 0.0,
+    "ci": [
+     -0.07,
+     0.07
+    ]
+   },
+   "mimo-v2.5-pro": {
+    "drop": 0.156,
+    "ci": [
+     0.01,
+     0.3
+    ]
+   },
+   "qwen3.6-plus": {
+    "drop": 0.741,
+    "ci": [
+     0.6,
+     0.87
+    ]
+   }
+  },
+  "claude": {
+   "claude-haiku-4-5-20251001": {
+    "drop": 0.1,
+    "ci": [
+     -0.09,
+     0.28
+    ]
+   },
+   "claude-opus-4-7": {
+    "drop": 0.214,
+    "ci": [
+     0.03,
+     0.4
+    ]
+   },
+   "deepseek-v4-pro": {
+    "drop": 0.4,
+    "ci": [
+     0.21,
+     0.59
+    ]
+   },
+   "glm-5.1": {
+    "drop": 0.492,
+    "ci": [
+     0.31,
+     0.67
+    ]
+   },
+   "gpt-4o": {
+    "drop": 0.077,
+    "ci": [
+     -0.07,
+     0.23
+    ]
+   },
+   "gpt-4o-mini": {
+    "drop": 0.096,
+    "ci": [
+     -0.06,
+     0.26
+    ]
+   },
+   "mimo-v2.5-pro": {
+    "drop": 0.253,
+    "ci": [
+     0.07,
+     0.44
+    ]
+   },
+   "qwen3.6-plus": {
+    "drop": 0.534,
+    "ci": [
+     0.36,
+     0.72
+    ]
+   }
+  }
+ }
+}

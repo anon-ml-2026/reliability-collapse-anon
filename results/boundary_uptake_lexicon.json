@@ -1,0 +1,102 @@
+{
+ "per_model": {
+  "claude-haiku-4-5-20251001": {
+   "uptake_rate": 0.3788,
+   "n": 132,
+   "higher_response_group": false
+  },
+  "claude-opus-4-7": {
+   "uptake_rate": 0.5197,
+   "n": 127,
+   "higher_response_group": false
+  },
+  "deepseek-v4-pro": {
+   "uptake_rate": 0.7634,
+   "n": 131,
+   "higher_response_group": true
+  },
+  "glm-5.1": {
+   "uptake_rate": 0.8636,
+   "n": 132,
+   "higher_response_group": true
+  },
+  "gpt-4o": {
+   "uptake_rate": 0.4222,
+   "n": 135,
+   "higher_response_group": false
+  },
+  "gpt-4o-mini": {
+   "uptake_rate": 0.3481,
+   "n": 135,
+   "higher_response_group": false
+  },
+  "mimo-v2.5-pro": {
+   "uptake_rate": 0.6094,
+   "n": 128,
+   "higher_response_group": false
+  },
+  "qwen3.6-plus": {
+   "uptake_rate": 0.9084,
+   "n": 131,
+   "higher_response_group": true
+  }
+ },
+ "ranges": {
+  "higher": [
+   0.7634,
+   0.9084
+  ],
+  "lower": [
+   0.3481,
+   0.6094
+  ]
+ },
+ "conditional_d2": {
+  "glm-5.1": {
+   "present_mean_d2": 0.3596,
+   "present_n": 114,
+   "absent_mean_d2": 0.6667,
+   "absent_n": 18
+  },
+  "qwen3.6-plus": {
+   "present_mean_d2": 0.2689,
+   "present_n": 119,
+   "absent_mean_d2": 0.8333,
+   "absent_n": 12
+  },
+  "gpt-4o": {
+   "present_mean_d2": 0.7544,
+   "present_n": 57,
+   "absent_mean_d2": 0.8974,
+   "absent_n": 78
+  },
+  "claude-haiku-4-5-20251001": {
+   "present_mean_d2": 0.58,
+   "present_n": 50,
+   "absent_mean_d2": 1.0,
+   "absent_n": 82
+  }
+ },
+ "non_echo": {
+  "glm-5.1": {
+   "non_echo_boundary_d2": 0.6667,
+   "no_role_d2": 0.7597,
+   "non_echo_share": 0.1364
+  },
+  "qwen3.6-plus": {
+   "non_echo_boundary_d2": 0.8333,
+   "no_role_d2": 0.7023,
+   "non_echo_share": 0.0916
+  },
+  "gpt-4o": {
+   "non_echo_boundary_d2": 0.8974,
+   "no_role_d2": 0.8702,
+   "non_echo_share": 0.5778
+  },
+  "claude-haiku-4-5-20251001": {
+   "non_echo_boundary_d2": 1.0,
+   "no_role_d2": 0.9242,
+   "non_echo_share": 0.6212
+  }
+ }
+}

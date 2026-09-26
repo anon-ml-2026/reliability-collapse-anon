@@ -1,0 +1,44 @@
+{
+ "D1_no_minus_bnd": {
+  "mean_diff": -0.0033,
+  "wilcoxon_exact_p": 1.0,
+  "wilcoxon_n_eff": 8,
+  "paired_t": -0.24,
+  "paired_t_p": 0.8172
+ },
+ "D1_role_minus_bnd": {
+  "mean_diff": -0.017,
+  "wilcoxon_exact_p": 1.0,
+  "wilcoxon_n_eff": 7,
+  "paired_t": -0.761,
+  "paired_t_p": 0.4712
+ },
+ "D2_no_minus_bnd": {
+  "mean_diff": 0.1565,
+  "wilcoxon_exact_p": 0.0547,
+  "wilcoxon_n_eff": 8,
+  "paired_t": 2.305,
+  "paired_t_p": 0.0546
+ },
+ "D2_role_minus_bnd": {
+  "mean_diff": 0.3132,
+  "wilcoxon_exact_p": 0.0078,
+  "wilcoxon_n_eff": 8,
+  "paired_t": 3.118,
+  "paired_t_p": 0.0169
+ },
+ "D3_no_minus_bnd": {
+  "mean_diff": 0.1037,
+  "wilcoxon_exact_p": 0.0156,
+  "wilcoxon_n_eff": 8,
+  "paired_t": 4.368,
+  "paired_t_p": 0.0033
+ },
+ "D3_role_minus_bnd": {
+  "mean_diff": 0.1141,
+  "wilcoxon_exact_p": 0.0234,
+  "wilcoxon_n_eff": 8,
+  "paired_t": 3.076,
+  "paired_t_p": 0.0179
+ }
+}

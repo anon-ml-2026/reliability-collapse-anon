@@ -1,34 +1,51 @@
 # Reliability Collapses Where Substitution Concentrates — Anonymous Repository
 
-This repository accompanies an anonymous ARR submission. It contains all
-materials promised in the paper's *Data and Code Availability* section:
+This repository accompanies an **anonymous ARR companion submission pair**:
+Paper A ("Same Advice Specificity, Different Authority: Model-Dependent
+Effects of Professional Identity Framing", in `paper/paperA/`) and
+Paper B ("From Agreement Scores to Defensible Claims", in `paper/latex/`).
+It contains all materials promised in both papers' *Data and Code
+Availability* sections:
 
 1. All probes (60 base + 180 variants) — `docs/`
 2. The D1/D2/D3/PSI scoring rubric and judge prompts, including the
    UNREG-anchored ablation variant — `docs/`, `code/scoring/`
 3. All R3/R4 model responses — `data/responses/`
 4. All four judges' scores (including the Kimi double-run) — `data/scores/`
-5. The 36-item Anchor Set with anonymized annotations from all five raters —
+5. The migration-benchmark judge scores (REG-L/REG-N, 1,080 responses) —
+   `data/migration/`; the probe invitation-strength coding sheets and
+   merged codes — `data/probes/invitation_coding/`
+6. The 36-item Anchor Set with anonymized annotations from all five raters —
    `data/human/`
-6. The 30- and 14-item professional pilot sets with anonymized annotations —
+7. The 30-, 14-, and 48-item pilot sets with anonymized annotations —
    `data/human/`
-7. The pre-registered validation-suite plan (2026-07-30) — `preregistration/`
-8. All analysis scripts — `code/analysis/`, plus their outputs in `results/`
+8. Pre-registered plans: the validation suite (2026-07-30), the probe
+   invitation-strength coding protocol (2026-09-12), and the
+   synthetic-calibration protocol (2026-09-13) — `preregistration/`
+9. All analysis scripts — `code/analysis/`, plus their outputs in `results/`
+10. Paper A's review PDF + compilable LaTeX source — `paper/paperA/`
+11. The exploratory post-hoc control pilot (Appendix B of Paper A) —
+    `pilot_posthoc_control/`
 
 ## Layout
 
 ```
-paper/                 anonymous review PDF + compilable LaTeX source
-preregistration/       validation-suite plan with decision thresholds
+paper/                 anonymous review PDFs + compilable LaTeX sources
+                       (paper/latex/ = Paper B; paper/paperA/ = Paper A)
+preregistration/       pre-registered plans (validation suite; invitation
+                       coding; synthetic calibration) with decision criteria
 docs/                  probe sets, rubric, PSI synthesis rules, verification notes
 data/responses/        r3_responses.jsonl (4,320 trials), r4_responses.jsonl (3,239)
 data/scores/           one JSON per judge x round (see table below)
+data/migration/        REG-L/REG-N migration-benchmark judge scores
+data/probes/           invitation-strength coding sheets + merged codes
 data/human/            anonymized human annotations + annotation manual
 code/collection/       response-generation driver (R3)
 code/scoring/          judge scoring runners (prompts embedded)
 code/analysis/         one script per reported analysis
 code/figures/          figure generation (matplotlib)
 results/               output JSON of every analysis script
+pilot_posthoc_control/ Paper A post-hoc pilot: generation, responses, scores
 ```
 
 ## Data files
@@ -56,22 +73,47 @@ any working directory — no configuration needed.
 
 | Paper item | Script | Output |
 |---|---|---|
-| Table 2 (8 configurations) | `cross_judge_analysis.py`, `r4_qwen_test_retest.py`, `kimi_t1_noise_ceiling.py` | `results/cross_judge_*.json`, `results/test_retest_qwen_and_r4_cross.json` |
+| **Paper A** | | |
+| Tables 1/2/4/5 + appendix contrast CIs | `paper_a_tables.py` | `results/paper_a_tables.json` |
+| Boundary-language uptake (sec. 4.5) | `boundary_uptake_lexicon.py` | `results/boundary_uptake_lexicon.json` |
+| Model-level Wilcoxon / paired-t (appendix) | `model_level_tests.py` | `results/model_level_tests.json` |
+| Figure 1 (judge sensitivity) | `code/figures/make_fig_judge_sensitivity.py` | `paper/paperA/figures/` |
+| Post-hoc control conditions (appendix) | `pilot_posthoc_control/generate_posthoc_control.py`, `aggregate.py` | `pilot_posthoc_control/` |
+| **Paper B — claim-to-evidence audit (v8)** | | |
+| Main-text tables 3–6 and appendices D–J (domain concordance, S1–S3 rates and margins, worst-case bounds, per-model margins, contingency, prevalence-matched, migration) | `python code/analysis/claim_matched_audit.py --verify` | prints `ALL CHECKS PASSED` |
+| Revision-stage additions: specification matrix, leave-one-probe-out, probe-count sensitivity, anchor Wilson intervals, judge-by-domain regression (app. K–N) | `python code/analysis/claim_audit_revision_v8.py --verify` | `code/analysis/revision_v8_numbers.json`; prints `ALL V8 CHECKS PASSED` |
+| Probe invitation-strength control (app. O) | `python code/analysis/probe_invitation_control.py --verify` | prints `ALL INVITATION CHECKS PASSED` |
+| Synthetic calibration of the verdict rule (app. P) | `python code/analysis/synthetic_calibration.py --verify` | prints `ALL CALIBRATION CHECKS PASSED` (full simulation, several minutes) |
+| Figures (audit pipeline, concordance, rule sensitivity, specification matrix, calibration) | `code/figures/*.py` | `paper/latex/figures/` |
+| **Supporting analyses (auxiliary judge configurations; shared by both papers)** | | |
+| Auxiliary judge configurations (app. C) | `cross_judge_analysis.py`, `r4_qwen_test_retest.py`, `kimi_t1_noise_ceiling.py` | `results/cross_judge_*.json`, `results/test_retest_qwen_and_r4_cross.json` |
 | Test-retest + 0.5-band stability | `r3_r4_test_retest.py`, `r3_r4_compute_stats.py` | `results/test_retest_stats.json` |
 | PABAK decomposition | `cross_judge_analysis.py` | `results/cross_judge_deepseek_claude.json` |
-| Ablation (sec. 4.2) | `ablation_unreg_anchor.py` | `results/ablation_unreg_anchor.json` |
-| Prevalence matching | `prevalence_matched*.py` | `results/prevalence_matched_*.json` |
+| UNREG-anchored rubric ablation | `ablation_unreg_anchor.py` | `results/ablation_unreg_anchor.json` |
+| Prevalence matching (app. H) | `prevalence_matched*.py` | `results/prevalence_matched_*.json` |
 | Noise ceiling | `kimi_t1_noise_ceiling.py` | `results/kimi_t1_noise_ceiling.json` |
 | Claude-subject bridge | `claude_band_bridge.py` | `results/claude_band_bridge.json` |
-| Human anchor | `human_vs_r3_analysis.py` | `results/human_anchor_analysis.json` |
-| Human extended tables (sec. 5.3) | `human_extended_tables.py` | `results/human_extended_tables.json` |
-| Professional/lay panels (sec. 5.3) | `panel_pooling.py` | `results/panel_pooling.json` |
-| Hui-Walter | `hui_walter_correction.py` | `results/hui_walter_correction.json` |
+| Human anchor scoring | `human_vs_r3_analysis.py` | `results/human_anchor_analysis.json` |
+| Human extended tables | `human_extended_tables.py` | `results/human_extended_tables.json` |
+| Professional/lay panels | `panel_pooling.py` | `results/panel_pooling.json` |
+| Hui-Walter correction | `hui_walter_correction.py` | `results/hui_walter_correction.json` |
 | PSI rule ablation | `psi_ablation.py` | `results/psi_rule_ablation.json` |
-| Figures | `code/figures/generate_figures*.py` | `paper/latex/figures/` |
 
-`verify_all_revisions.py` cross-checks the statistics quoted in the text
-against these outputs.
+### Verification
+
+From the repository root, the four commands below re-derive every published
+Paper B number from the released score files:
+
+```
+python code/analysis/claim_matched_audit.py --verify
+python code/analysis/claim_audit_revision_v8.py --verify
+python code/analysis/probe_invitation_control.py --verify
+python code/analysis/synthetic_calibration.py --verify
+```
+
+`verify_all_revisions.py` cross-checks further quoted statistics against the
+`results/` outputs; the Paper A scripts above each print their headline
+values, which match the printed tables exactly.
 
 ## Scoring pipeline
 
@@ -85,11 +127,10 @@ environment variables, never from the repository. The judge system prompt
 
 ## Ethics
 
-Human annotations were collected from consenting, compensated adults
-judging synthetic materials; no personal data was collected. Rater
-identifiers are anonymized to the labels used in the paper (A1-A5, E1, E2).
-All probes and responses are synthetic; no patient or user data appears
-anywhere in this repository.
+Human annotations were collected from consenting adults judging synthetic
+materials; no personal data was collected. All raters (A1–A5, E1, E2) were compensated for their participation. Rater identifiers are anonymized to the
+labels used in the papers (A1-A5, E1, E2). All probes and responses are
+synthetic; no patient or user data appears anywhere in this repository.
 
 ## License
 
