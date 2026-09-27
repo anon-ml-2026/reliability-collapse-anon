@@ -75,9 +75,10 @@ any working directory — no configuration needed.
 |---|---|---|
 | **Paper A** | | |
 | Tables 1/2/4/5 + appendix contrast CIs | `paper_a_tables.py` | `results/paper_a_tables.json` |
+| Tables 1/2/4/5 (V17 revision, numbers as published) | `paper_a_v17_tables.py` | `results/paper_a_v17_tables.json` |
 | Boundary-language uptake (sec. 4.5) | `boundary_uptake_lexicon.py` | `results/boundary_uptake_lexicon.json` |
 | Model-level Wilcoxon / paired-t (appendix) | `model_level_tests.py` | `results/model_level_tests.json` |
-| Figure 1 (judge sensitivity) | `code/figures/make_fig_judge_sensitivity.py` | `paper/paperA/figures/` |
+| Figure 1 (two-panel judge sensitivity) | `code/figures/make_fig_judge_sensitivity_two_panel.py` | `results/figures/` (bundled with the source at `paper/paperA/figures/`) |
 | Post-hoc control conditions (appendix) | `pilot_posthoc_control/generate_posthoc_control.py`, `aggregate.py` | `pilot_posthoc_control/` |
 | **Paper B — claim-to-evidence audit (v8)** | | |
 | Main-text tables 3–6 and appendices D–J (domain concordance, S1–S3 rates and margins, worst-case bounds, per-model margins, contingency, prevalence-matched, migration) | `python code/analysis/claim_matched_audit.py --verify` | prints `ALL CHECKS PASSED` |

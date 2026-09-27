@@ -1,0 +1,300 @@
+{
+ "exclusions": {
+  "per_model": {
+   "Claude-Haiku": {
+    "no-role": "3/135",
+    "with-role": "7/135",
+    "boundary-role": "3/135"
+   },
+   "Claude-Opus": {
+    "no-role": "6/135",
+    "with-role": "8/135",
+    "boundary-role": "8/135"
+   },
+   "DeepSeek-V4": {
+    "no-role": "5/135",
+    "with-role": "4/135",
+    "boundary-role": "4/135"
+   },
+   "GLM-5.1": {
+    "no-role": "6/135",
+    "with-role": "8/135",
+    "boundary-role": "3/135"
+   },
+   "GPT-4o": {
+    "no-role": "4/135",
+    "with-role": "3/135",
+    "boundary-role": "0/135"
+   },
+   "GPT-4o-mini": {
+    "no-role": "3/135",
+    "with-role": "2/135",
+    "boundary-role": "0/135"
+   },
+   "MiMo-V2.5-Pro": {
+    "no-role": "3/135",
+    "with-role": "6/135",
+    "boundary-role": "7/135"
+   },
+   "Qwen3.6-Plus": {
+    "no-role": "4/135",
+    "with-role": "12/135",
+    "boundary-role": "4/135"
+   }
+  },
+  "condition_totals": {
+   "no-role": "34/1080",
+   "with-role": "50/1080",
+   "boundary-role": "29/1080"
+  }
+ },
+ "reg_only": {
+  "Claude-Haiku": {
+   "means": {
+    "no-role": 0.943,
+    "with-role": 1.106,
+    "boundary-role": 0.83
+   },
+   "n": 261,
+   "d_no_bnd": 0.113,
+   "ci_no_bnd": [
+    -0.068,
+    0.295
+   ],
+   "d_role_bnd": 0.276,
+   "ci_role_bnd": [
+    0.09,
+    0.461
+   ]
+  },
+  "Claude-Opus": {
+   "means": {
+    "no-role": 0.816,
+    "with-role": 1.071,
+    "boundary-role": 0.874
+   },
+   "n": 258,
+   "d_no_bnd": -0.058,
+   "ci_no_bnd": [
+    -0.253,
+    0.138
+   ],
+   "d_role_bnd": 0.197,
+   "ci_role_bnd": [
+    -0.002,
+    0.398
+   ]
+  },
+  "DeepSeek-V4": {
+   "means": {
+    "no-role": 0.839,
+    "with-role": 1.023,
+    "boundary-role": 0.402
+   },
+   "n": 261,
+   "d_no_bnd": 0.437,
+   "ci_no_bnd": [
+    0.23,
+    0.644
+   ],
+   "d_role_bnd": 0.621,
+   "ci_role_bnd": [
+    0.425,
+    0.816
+   ]
+  },
+  "GLM-5.1": {
+   "means": {
+    "no-role": 0.682,
+    "with-role": 1.238,
+    "boundary-role": 0.261
+   },
+   "n": 257,
+   "d_no_bnd": 0.421,
+   "ci_no_bnd": [
+    0.21,
+    0.632
+   ],
+   "d_role_bnd": 0.977,
+   "ci_role_bnd": [
+    0.768,
+    1.185
+   ]
+  },
+  "GPT-4o": {
+   "means": {
+    "no-role": 0.908,
+    "with-role": 0.943,
+    "boundary-role": 0.856
+   },
+   "n": 265,
+   "d_no_bnd": 0.052,
+   "ci_no_bnd": [
+    -0.059,
+    0.164
+   ],
+   "d_role_bnd": 0.087,
+   "ci_role_bnd": [
+    -0.014,
+    0.189
+   ]
+  },
+  "GPT-4o-mini": {
+   "means": {
+    "no-role": 0.899,
+    "with-role": 0.932,
+    "boundary-role": 0.922
+   },
+   "n": 267,
+   "d_no_bnd": -0.023,
+   "ci_no_bnd": [
+    -0.146,
+    0.089
+   ],
+   "d_role_bnd": 0.01,
+   "ci_role_bnd": [
+    -0.102,
+    0.121
+   ]
+  },
+  "MiMo-V2.5-Pro": {
+   "means": {
+    "no-role": 0.724,
+    "with-role": 0.921,
+    "boundary-role": 0.651
+   },
+   "n": 262,
+   "d_no_bnd": 0.073,
+   "ci_no_bnd": [
+    -0.146,
+    0.282
+   ],
+   "d_role_bnd": 0.27,
+   "ci_role_bnd": [
+    0.065,
+    0.475
+   ]
+  },
+  "Qwen3.6-Plus": {
+   "means": {
+    "no-role": 0.651,
+    "with-role": 1.073,
+    "boundary-role": 0.264
+   },
+   "n": 255,
+   "d_no_bnd": 0.387,
+   "ci_no_bnd": [
+    0.19,
+    0.584
+   ],
+   "d_role_bnd": 0.809,
+   "ci_role_bnd": [
+    0.616,
+    1.0
+   ]
+  }
+ },
+ "reg_only_pooled": {
+  "no-role": 0.809,
+  "with-role": 1.036,
+  "boundary-role": 0.634
+ },
+ "three_judge": {
+  "DeepSeek|Claude-Haiku": {
+   "d_no_bnd": 0.083,
+   "d_role_bnd": 0.206
+  },
+  "DeepSeek|Claude-Opus": {
+   "d_no_bnd": -0.068,
+   "d_role_bnd": 0.102
+  },
+  "DeepSeek|DeepSeek-V4": {
+   "d_no_bnd": 0.404,
+   "d_role_bnd": 0.496
+  },
+  "DeepSeek|GLM-5.1": {
+   "d_no_bnd": 0.358,
+   "d_role_bnd": 0.74
+  },
+  "DeepSeek|GPT-4o": {
+   "d_no_bnd": 0.033,
+   "d_role_bnd": 0.072
+  },
+  "DeepSeek|GPT-4o-mini": {
+   "d_no_bnd": -0.01,
+   "d_role_bnd": 0.021
+  },
+  "DeepSeek|MiMo-V2.5-Pro": {
+   "d_no_bnd": 0.07,
+   "d_role_bnd": 0.188
+  },
+  "DeepSeek|Qwen3.6-Plus": {
+   "d_no_bnd": 0.382,
+   "d_role_bnd": 0.679
+  },
+  "Qwen|Claude-Haiku": {
+   "d_no_bnd": 0.053,
+   "d_role_bnd": 0.172
+  },
+  "Qwen|Claude-Opus": {
+   "d_no_bnd": 0.128,
+   "d_role_bnd": 0.195
+  },
+  "Qwen|DeepSeek-V4": {
+   "d_no_bnd": 0.4,
+   "d_role_bnd": 0.519
+  },
+  "Qwen|GLM-5.1": {
+   "d_no_bnd": 0.4,
+   "d_role_bnd": 0.837
+  },
+  "Qwen|GPT-4o": {
+   "d_no_bnd": 0.067,
+   "d_role_bnd": 0.104
+  },
+  "Qwen|GPT-4o-mini": {
+   "d_no_bnd": 0.0,
+   "d_role_bnd": 0.0
+  },
+  "Qwen|MiMo-V2.5-Pro": {
+   "d_no_bnd": 0.007,
+   "d_role_bnd": 0.156
+  },
+  "Qwen|Qwen3.6-Plus": {
+   "d_no_bnd": 0.285,
+   "d_role_bnd": 0.741
+  },
+  "Claude-Haiku|Claude-Haiku": {
+   "d_no_bnd": 0.051,
+   "d_role_bnd": 0.1
+  },
+  "Claude-Haiku|Claude-Opus": {
+   "d_no_bnd": 0.048,
+   "d_role_bnd": 0.214
+  },
+  "Claude-Haiku|DeepSeek-V4": {
+   "d_no_bnd": 0.13,
+   "d_role_bnd": 0.4
+  },
+  "Claude-Haiku|GLM-5.1": {
+   "d_no_bnd": 0.023,
+   "d_role_bnd": 0.492
+  },
+  "Claude-Haiku|GPT-4o": {
+   "d_no_bnd": 0.057,
+   "d_role_bnd": 0.077
+  },
+  "Claude-Haiku|GPT-4o-mini": {
+   "d_no_bnd": 0.056,
+   "d_role_bnd": 0.096
+  },
+  "Claude-Haiku|MiMo-V2.5-Pro": {
+   "d_no_bnd": 0.015,
+   "d_role_bnd": 0.253
+  },
+  "Claude-Haiku|Qwen3.6-Plus": {
+   "d_no_bnd": 0.008,
+   "d_role_bnd": 0.534
+  }
+ }
+}
