@@ -346,7 +346,7 @@ The audit closes with a ledger (Table~\ref{tab:ledger}, Appendix~\ref{app:ledger
 
 REG-S has the highest all-decision agreement but the lowest candidate $P_+$; UNREG has weaker item-level concordance yet keeps the highest candidate rate under every declared check. Uncertainty about individual labels need not erase a stable domain comparison.
 
-This is where the claim specification earns its place: each conclusion receives a verdict---retain, narrow, or withdraw. The methodological contribution carries familiar diagnostics through to a decision about the reported claim: preserve the candidate finding, rule out a threshold-independent headline, and treat the threshold-driven loss of stability as part of the finding. The specification matrix shows what the one-rule-at-a-time chain could only hint at: the strict-rule verdict is judge-dependent, an interaction a single-factor walk would miss. The ledger makes each verdict traceable.
+This is where the claim specification earns its place: each conclusion receives a verdict---retain, narrow, or withdraw. The methodological contribution carries familiar diagnostics through to a decision about the reported claim: preserve the candidate finding, rule out a threshold-independent headline, and treat the threshold-driven loss of stability as part of the finding. The specification matrix shows what the one-rule-at-a-time chain could only hint at: the strict-rule verdict is judge-dependent, an interaction a single-factor walk would miss. The ledger makes each verdict traceable. Appendix~\ref{app:interventions} consolidates the protocol interventions: each operational choice moves a reported statistic by a measured amount, and none reverses the candidate direction.
 
 \subsection{What the Behavioral Finding Does and Does Not Mean}
 
@@ -892,6 +892,32 @@ Calibrated wording & On the common dual-scored benchmark sample, UNREG has the h
 \end{tabular}
 \caption{The completed claim ledger. Each qualification corresponds to a measured boundary rather than a generic disclaimer.}
 \label{tab:ledger}
+\end{table}
+
+\section{Protocol Interventions and Their Measured Effects}
+\label{app:interventions}
+
+Table~\ref{tab:interventions} consolidates the audit's counterfactual statements. Each row records one operational choice varied on common support, the statistic it moves, and the measured direction and size. These are within-protocol interventions: they quantify how the reported numbers respond to declared analytic choices, not causal effects on model behavior.
+
+\begin{table}[H]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{3.5pt}
+\begin{tabular}{@{}p{1.9cm}p{2.0cm}p{2.35cm}p{4.1cm}p{1.35cm}@{}}
+\toprule
+Choice varied & Variation & Statistic moved & Measured effect & Source \\
+\midrule
+Judge identity & Claude $\to$ Qwen (R3) & UNREG candidate $P_o$ & 63.8\% $\to$ 85.0\% ($+21.2$) & App.~\ref{app:crossjudge} \\
+Aggregation & S1 single $\to$ S2 joint & UNREG rate; margin & 40.1\% $\to$ 19.9\%; $+19.0 \to +11.2$ & Table~\ref{tab:rates} \\
+Threshold & candidate $\to$ strict & Margin sign & $+11.2 \to -3.0$; judge-split $+14.0$ (DS-only) vs.\ $-3.7$ (Claude-only) & Tables~\ref{tab:rates}, \ref{tab:matrix} \\
+Composition & $+$CTL responses & Pooled $P_o$ & 76.0\% $\to$ 82.3\% & Section~\ref{subsec:agreement} \\
+Probe inventory & remove any one probe & Margin sign & unchanged (0/45 sign flips) & Table~\ref{tab:loo} \\
+Covariate & M0 $\to$ M1 ($+$ strength) & UNREG logit coefficient & $+0.917 \to +0.456$ ($-50.3\%$) & Table~\ref{tab:invitationreg} \\
+Granularity & three-level / candidate / strict & M--H vs.\ M--M ordering & flips; each shift is 1--2 items & Table~\ref{tab:humanmatched} \\
+\bottomrule
+\end{tabular}
+\caption{Protocol interventions: each operational choice, the statistic it moves, and the measured change. All rows are within-protocol counterfactuals on common support; none reverses the candidate direction.}
+\label{tab:interventions}
 \end{table}
 
 \end{document}
